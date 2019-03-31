@@ -233,6 +233,7 @@
       </component>
 
       <!-- Document Links -->
+      <!--
       <component>
          <region-id>document-links</region-id>
          <url>/components/document-details/document-links</url>
@@ -240,6 +241,7 @@
             <nodeRef>{nodeRef}</nodeRef>
          </properties>
       </component>
+      -->
 
       <!-- Document Metadata -->
       <component>
@@ -251,6 +253,7 @@
       </component>
 
       <!-- Document Sync -->
+      <!--
       <component>
          <region-id>document-sync</region-id>
          <url>/components/document-details/document-sync</url>
@@ -258,10 +261,12 @@
             <nodeRef>{nodeRef}</nodeRef>
          </properties>
       </component>
+      -->
 
       <!-- Document Permissions - removed. See https://issues.alfresco.com/jira/browse/SHA-3 -->
 
       <!-- Document Workflows -->
+      <!--
       <component>
          <region-id>document-workflows</region-id>
          <url>/components/document-details/document-workflows</url>
@@ -269,6 +274,7 @@
             <nodeRef>{nodeRef}</nodeRef>
          </properties>
       </component>
+      -->
 
       <!-- Document Versions -->
       <component>

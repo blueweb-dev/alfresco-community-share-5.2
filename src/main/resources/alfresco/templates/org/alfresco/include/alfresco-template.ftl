@@ -19,11 +19,6 @@
    Includes preloaded YUI assets and essential site-wide libraries.
 -->
 <#macro templateHeader doctype="strict">
-<#if doctype = "strict">
-<!DOCTYPE html>
-<#else>
-<!DOCTYPE html>
-</#if>
 <html lang="${locale}">
 <head>
    <title><@region id="head-title" scope="global" chromeless="true"/></title>

@@ -53,8 +53,9 @@ div.login
 /* fake MD input field */
 .login input[type="text"], .login input[type="password"]
 {
-   border: none;
-   border-bottom: 1px solid #ccc;
+   border: 1px solid #ccc;
+   height: 36px;
+   border-radius: 6px;
    background-color: #fff;
    outline: none;
    font-size: 120%;
@@ -91,8 +92,8 @@ div.login
 
 .form-fields.login .form-field > span.yui-button > .first-child
 {
-   background-color: #f8982b;
-   border-color: #f8982b;
+   background-color: #6f79a8;
+   border-color: #6f79a8;
    height: 34px;
 }
 
@@ -112,6 +113,16 @@ div.login
    margin-top: 16px;
    text-align: center;
 }
+
+.login-tagline
+{
+   height: 22px;
+   background: transparent url(../images/alfresco-tagline-white.svg) 50% 0 no-repeat;
+   background-size: 260px 20px;
+   margin-top: 42px;
+   display: none;
+}
+
 .login .error
 {
    width: 320px;
@@ -150,6 +161,11 @@ div.login
    display: none;
 }
 
+.ENTERPRISE .login-tagline
+{
+   display: block;
+}
+
 .ENTERPRISE .login input[type="text"]:focus, .ENTERPRISE .login input[type="password"]:focus
 {
    border-bottom: 1px solid #0c79bf;
@@ -162,5 +178,5 @@ body.ENTERPRISE
 
 body.UNKNOWN
 {
-   background-color: #f8982b;
+   background-color: #6f79a8;
 }

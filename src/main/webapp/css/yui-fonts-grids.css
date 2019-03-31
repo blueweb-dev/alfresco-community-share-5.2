@@ -340,7 +340,7 @@ version: 2.9.0
 }
 
 .yui-gd div.first {
-	width: 32%;
+	width: 25%;
 }
 
 .yui-ge div.first, 
@@ -531,3 +531,12 @@ version: 2.9.0
 .yui-gf {
 	zoom: 1;
 }
+
+/** sungjoon 추가 */
+.alfresco-share .alfresco-header-Header {
+	background-color: #6f79a8 !important;height: 50px; }
+
+#SHARE_HEADER { position: relative; }
+#SHARE_HEADER > nav { width: 100%;position: absolute;bottom: 12px; }
+#SHARE_HEADER > nav > div:first-child { font-size: 18px; }
+#SHARE_HEADER > nav > div a { color: white; }
